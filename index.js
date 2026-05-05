@@ -5,6 +5,8 @@
 //  2/ The trick of return at the end of the function is really important
 //      It helps on stoping the excution for the next line of code
 
+// 3/ Usually one of your programming errors you do not save a variable to use it later
+
 
 const buttons = document.querySelectorAll('button')
 const input = document.querySelector('input')
