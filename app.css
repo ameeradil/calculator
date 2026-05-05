@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-input{
+    width: 320px;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 20px;
+}
+
+.calc-head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;  
+}
+
+.delete-button{
+    width: 100px;
+    background-color: red;
+}
+
+.equal-button{
+    background-color: green;
+    color: black;
+}
+
+.buttons-container{
+    display: grid;
+    width: 100%;
+    max-width: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    font-size: 24px;
+}
